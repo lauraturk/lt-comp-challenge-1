@@ -1,0 +1,106 @@
+
+body {
+	color: #313628;
+	font-family: 'Roboto', sans-serif;
+}
+
+article img {
+	width: 30px;
+	margin: 0 auto;
+}
+
+article p {
+	font-size: 16px;
+	width: 80%;
+
+}
+
+aside img {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 800;
+	padding: 10px;
+}
+
+header section {
+	padding: 10px 20px;
+}
+
+.page-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-content {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	width: 60%;
+}
+
+.slideshow-content {
+	background-color: #2C2928;
+	display: flex;
+	width: 40%;
+}
+
+.double-box {
+	background-color: #EF8F55;
+	display: flex;
+	flex-direction: column;
+	height: 33.33%;
+	width: 66.66%;
+	text-align: center;
+}
+
+.download-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 50px;
+}
+
+.intro-copy {
+	text-align: left;
+	padding: 5px 0px;
+	size: 14px;
+}
+
+button {
+	background-color: #EF8F55;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 32px
+	width: 90px;
+	height: 45px;
+
+}
+
+button:hover {
+	border: 3px solid #AE693E;
+}
+
+.box {
+	height: 33.33%;
+	width: 33.33%;
+}
+
+.level-1 {
+	background-color: #9B6B6A;
+}
+
+.level-2,.level-4 {
+	background-color: #CEB992;
+}
+
+.level-3 {
+	background-color: #5A848B;
+}
+
+.box .level-4 {
+	display: none;
+	z-index: -1;
+}
