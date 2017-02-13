@@ -41,7 +41,7 @@ button:hover {
 }
 
 .slideshow-content {
-	background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_510x700.jpg);
+	background: url(CssImages/fillmurray_510x700.jpg);
 	position: relative;
 	height: 700px;
 	width: 40%;
@@ -127,7 +127,7 @@ button:hover {
 /**media queries**/
 @media screen and (max-width: 853px) {
 	.slideshow-content {
-		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_740x340.jpg);
+		background: url(CssImages/fillmurray_740x340.jpg);
 		position: relative;
 		height: 340px;
 		order: -1;
@@ -152,7 +152,7 @@ button:hover {
 
 @media screen and (max-width: 620px){
 	.slideshow-content{
-		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_600x300.jpg);
+		background: url(CssImages/fillmurray_600x300.jpg);
 		height: 250px;
 		position: relative;
 		width: 100%;
@@ -171,7 +171,7 @@ button:hover {
 
 @media screen and (max-width: 500px) {
 	.slideshow-content {
-		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_500x250.jpg);
+		background: url(CssImages/fillmurray_500x250.jpg);
 		height: 200px;
 		position: relative;
 		width: 100%;
@@ -180,7 +180,7 @@ button:hover {
 
 @media screen and (max-width: 350px) {
 	.slideshow-content {
-		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_350x200.jpg);
+		background: url(CssImages/fillmurray_350x200.jpg);
 		height: 200px;
 		position: relative;
 		width: 100%;
