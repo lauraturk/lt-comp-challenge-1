@@ -13,3 +13,7 @@
 ![original comp](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg "Static Comp Challenge 1 Asset Image")
 
 ![desktop](Images/Screen Shot 2017-02-13 at 6.50.52 AM.png "LT comp")
+
+![Tablet](/Images/Screen Shot 2017-02-13 at 7.33.06 AM.png)
+
+![Phone](Images/Screen Shot 2017-02-13 at 7.33.25 AM.png)

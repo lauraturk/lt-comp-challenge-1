@@ -41,9 +41,9 @@ button:hover {
 }
 
 .slideshow-content {
-	background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_510x640.jpg);
+	background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_510x700.jpg);
 	position: relative;
-	height: 640px;
+	height: 700px;
 	width: 40%;
 
 }
