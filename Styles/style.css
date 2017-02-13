@@ -41,7 +41,7 @@ button:hover {
 }
 
 .slideshow-content {
-	background: url(https://github.com/lauraturk/lt-comp-challenge-1/blob/master/Images/fillmurray_510x640.jpg);
+	background: url(lt-comp-challenge-1/Images/fillmurray_510x640.jpg);
 	position: relative;
 	height: 640px;
 	width: 40%;
