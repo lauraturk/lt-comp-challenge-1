@@ -1,18 +1,7 @@
 
 body {
-	color: #313628;
+	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
-}
-
-article img {
-	width: 30px;
-	margin: 0 auto;
-}
-
-article p {
-	font-size: 16px;
-	width: 80%;
-
 }
 
 aside img {
@@ -29,6 +18,24 @@ header section {
 	padding: 10px 20px;
 }
 
+button img {
+	padding: 5px 5px;
+	width: 10px;
+}
+
+button {
+	background-color: #EF8F55;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0 20px;
+}
+
+button:hover {
+	border: 3px solid #AE693E;
+}
+
 .page-wrapper {
 	display: flex;
 	flex-wrap: wrap;
@@ -42,9 +49,32 @@ header section {
 }
 
 .slideshow-content {
-	background-color: #2C2928;
-	display: flex;
+	background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_510x640.jpg);
+	position: relative;
+	height: 640px;
 	width: 40%;
+
+}
+
+.left {
+	left: 10px;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}
+
+.right {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	z-index: 2;
+}
+
+.dots {
+	position: absolute;
+	z-index: 2;
+	top: 10px;
+	right: 10px;
 }
 
 .double-box {
@@ -52,40 +82,47 @@ header section {
 	display: flex;
 	flex-direction: column;
 	height: 33.33%;
+	text-align: left;
 	width: 66.66%;
-	text-align: center;
 }
 
 .download-buttons {
 	display: flex;
-	justify-content: space-between;
-	margin: 10px 50px;
+	/*justify-content: space-between;*/
+	margin: 10px 0;
 }
 
 .intro-copy {
 	text-align: left;
-	padding: 5px 0px;
+	padding: 5px 10px;
 	size: 14px;
 }
 
-button {
-	background-color: #EF8F55;
-	border: 2px solid #FFFFFF;
-	color: #FFFFFF;
-	font-weight: 600;
-	font-size: 32px
-	width: 90px;
-	height: 45px;
-
-}
-
-button:hover {
-	border: 3px solid #AE693E;
-}
-
 .box {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 	height: 33.33%;
 	width: 33.33%;
+}
+.icon-group {
+	text-align: center;
+}
+
+.icon-label {
+	color: #FFFFFF;
+	margin: 5px auto;
+	size: 16px;
+}
+
+.icon-img {
+	width: 40px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+
+.shrink-img {
+	width: 30px;
 }
 
 .level-1 {
@@ -98,9 +135,4 @@ button:hover {
 
 .level-3 {
 	background-color: #5A848B;
-}
-
-.box .level-4 {
-	display: none;
-	z-index: -1;
 }
