@@ -4,18 +4,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-aside img {
-	margin: 0 auto;
-}
-
 h1 {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 800;
-	padding: 10px;
-}
-
-header section {
-	padding: 10px 20px;
+	padding: 15px 20px;
 }
 
 button img {
@@ -27,8 +19,8 @@ button {
 	background-color: #EF8F55;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
-	font-weight: 400;
 	font-size: 14px;
+	font-weight: 400;
 	margin: 0 20px;
 }
 
@@ -60,21 +52,18 @@ button:hover {
 	left: 10px;
 	position: absolute;
 	top: 50%;
-	z-index: 2;
 }
 
 .right {
 	position: absolute;
 	right: 10px;
 	top: 50%;
-	z-index: 2;
 }
 
 .dots {
 	position: absolute;
-	z-index: 2;
-	top: 10px;
 	right: 10px;
+	top: 10px;
 }
 
 .double-box {
@@ -82,27 +71,25 @@ button:hover {
 	display: flex;
 	flex-direction: column;
 	height: 33.33%;
-	text-align: left;
 	width: 66.66%;
 }
 
 .download-buttons {
 	display: flex;
-	/*justify-content: space-between;*/
 	margin: 10px 0;
 }
 
 .intro-copy {
-	text-align: left;
 	padding: 5px 10px;
 	size: 14px;
+	text-align: left;
 }
 
 .box {
 	align-items: center;
 	display: flex;
-	justify-content: center;
 	height: 33.33%;
+	justify-content: center;
 	width: 33.33%;
 }
 .icon-group {
@@ -116,9 +103,9 @@ button:hover {
 }
 
 .icon-img {
-	width: 40px;
 	margin: 0 auto;
 	padding-bottom: 5px;
+	width: 40px;
 }
 
 .shrink-img {
@@ -138,7 +125,7 @@ button:hover {
 }
 
 /**media queries**/
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 853px) {
 	.slideshow-content {
 		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_740x340.jpg);
 		position: relative;
@@ -153,27 +140,27 @@ button:hover {
 	}
 
 	.double-box {
-		width: 66.66%;
 		height: 33.33%;
+		width: 66.66%;
 	}
 
 	.box {
-		width: 33.33%;
 		height: 33.33%;
+		width: 33.33%;
 	}
 }
 
 @media screen and (max-width: 620px){
 	.slideshow-content{
 		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_600x300.jpg);
-		position: relative;
 		height: 250px;
+		position: relative;
 		width: 100%;
 	}
 
 	.double-box {
-		width: 100%;
 		order: -1;
+		width: 100%;
 	}
 
 	.box {
@@ -185,8 +172,8 @@ button:hover {
 @media screen and (max-width: 500px) {
 	.slideshow-content {
 		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_500x250.jpg);
-		position: relative;
 		height: 200px;
+		position: relative;
 		width: 100%;
 	}
 }
@@ -194,7 +181,12 @@ button:hover {
 @media screen and (max-width: 350px) {
 	.slideshow-content {
 		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_350x200.jpg);
-		position: relative;
 		height: 200px;
+		position: relative;
 		width: 100%;
+	}
+
+	.double-box {
+		padding-bottom:10px;
+	}
 }
