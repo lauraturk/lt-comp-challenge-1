@@ -41,7 +41,7 @@ button:hover {
 }
 
 .slideshow-content {
-	background: url(lt-comp-challenge-1/Images/fillmurray_510x640.jpg);
+	background: url(http://www.fillmurray.com/510/640);
 	position: relative;
 	height: 640px;
 	width: 40%;
