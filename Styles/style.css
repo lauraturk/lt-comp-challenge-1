@@ -136,3 +136,65 @@ button:hover {
 .level-3 {
 	background-color: #5A848B;
 }
+
+/**media queries**/
+@media screen and (max-width: 840px) {
+	.slideshow-content {
+		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_740x340.jpg);
+		position: relative;
+		height: 340px;
+		order: -1;
+		width: 100%;
+	}
+
+	.main-content {
+		height: 680px;
+		width: 100%;
+	}
+
+	.double-box {
+		width: 66.66%;
+		height: 33.33%;
+	}
+
+	.box {
+		width: 33.33%;
+		height: 33.33%;
+	}
+}
+
+@media screen and (max-width: 620px){
+	.slideshow-content{
+		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_600x300.jpg);
+		position: relative;
+		height: 250px;
+		width: 100%;
+	}
+
+	.double-box {
+		width: 100%;
+		order: -1;
+	}
+
+	.box {
+		height: 125px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.slideshow-content {
+		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_500x250.jpg);
+		position: relative;
+		height: 200px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.slideshow-content {
+		background: url(/Users/lauraturk/Turing/lt-comp-challenge-1/Images/fillmurray_350x200.jpg);
+		position: relative;
+		height: 200px;
+		width: 100%;
+}
